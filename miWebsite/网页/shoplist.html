@@ -1,0 +1,666 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>茉莉妈妈-母婴好货指南，180天闲置回收保障</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta property="qc:admins" content="234163672561755241166375" />
+    <meta property="wb:webmaster" content="c1595c4bf8d6dacd" />
+    <meta name="keywords" content="茉莉妈妈,妈妈社区,妈妈商场,母婴商场,二手市场,母婴用品回收,母婴用品,妈妈社群,母婴产品,二手母婴用品,母婴闲置,婴儿用品">
+    <meta name="description" content="茉莉妈妈,妈妈社区,妈妈商场,母婴商场,二手市场,母婴用品回收,母婴用品,妈妈社群,母婴产品,二手母婴用品,母婴闲置,婴儿用品">
+    <meta name="baidu-site-verification" content="rnyMiv2JC1">
+    <style type="text/css">
+        *{
+        	padding: 0;
+        	margin: 0;
+        	/*border: 0;*/
+        }
+
+        a{
+        	text-decoration: none;
+        	color: #000;
+        }
+        a:hover{
+        	text-decoration:underline;
+        }
+        body{
+        	width: 1340px;
+        	margin:0 auto;
+        	/*text-align: left;*/
+        }
+        .headerbar{
+        	width:100%;
+        	position:fixed;
+        	height:40px;
+        	z-index: 10000;
+        	/*border:1px solid #F00;*/
+        	background-color: #fcf;
+        	padding:10px;
+        	padding-left:20%;
+        	opacity: 1.0;
+        }
+        .headerbar img{
+            float:left;
+        }
+        .headerbar ul{
+        	margin-top:10px;
+        	float: left;
+        	margin-left:20%;
+        }
+        .headerbar ul li {
+        	float: left;
+        	padding: 0 20px;
+        	margin:0 20px;
+        }
+        .headerbar ul li a:hover{
+        	text-decoration: none;
+        }
+        .search{
+        	/*margin-top:45px;*/
+        	width:100%;
+        	height:180px;
+        	/*border:1px solid #F00;*/
+        	margin-bottom: -180px;
+
+        }
+        .search img{
+            float:left;
+            margin-top:80px;
+            margin-left:20%;
+
+        }
+		.searbox{
+			margin-top:100px;
+			height: 40px;
+			width:500px;
+			float: left;
+			margin-left:200px;
+			/*border:1px solid #F00;*/
+			position: relative;
+		}
+		.searbox img{
+			margin-top:0px;
+		}
+		.searbox input{
+			float:left;
+			width:240px;
+			height:30px;
+			padding-left:5px;
+			display: inline-block;
+			margin-left: 5px;
+			margin-right: 7px;
+			border:none;
+			border:1px solid #ccc;
+		}
+		.searbox input:focus{
+			/*background:#fcf;*/
+			/*outline:none;*/
+		}
+		.searbox .searc{
+			float: right;
+			margin-top: -32px;
+			margin-right:40px;
+		}
+
+
+
+        ul li{
+        	list-style-type:none;
+        }
+        ul li:hover{
+        	cursor:pointer;
+        }
+        aside{
+        	width:180px;
+        	height: 800px;
+        	overflow:hidden;
+        	background-color:#FFFAFA;
+        	float: left;
+        	font-size:14px;
+        	margin-left:100px;
+        	margin-top: 60px;
+        	/*border: 1px solid #F00;*/
+        }
+         aside h4{
+         	margin-left: 10px;
+         	padding-top:10px;
+         	padding-bottom:10px;
+        
+         }
+         aside ul{
+         	opacity:0.7;
+         }
+         aside >ul li ul li{
+        	padding:7px;
+        }
+        aside >ul>li{
+        	padding:12px;
+        }
+         aside >ul li ul{
+         	display: none;
+         	padding-left:20px;
+         	/*transition: display 1.5s linear;*/
+         }
+        .floatRig{
+        	float:right;
+        }
+        .rigcom{
+            width:1000px;
+            float:left;
+            margin-top: 60px;
+            font-family: Sans-serif Helvetica;
+        }
+        .miaoshu{
+        	padding:20px;
+        	line-height: 1.5em;
+        }
+        .tip{
+        	padding:20px;
+        	margin-top:10px;
+        	opacity:0.7;
+        }
+        .tip span{
+        	display: inline-block;
+        	margin-bottom:15px;
+        }
+        .tip button{
+        	border:none;
+        	display: inline-block;
+        	width:70px;
+        	background-color: #FFF;
+        	border:1px solid #ccc;
+        	height: 30px;
+        	text-align:center
+        	margin-top:10px;
+        	margin-left:10px;
+        	padding:3px;
+        	font-size: 14px;
+        	
+        }
+        .tip button:hover{
+        	cursor: pointer;
+        	outline:none;
+        }
+		
+          .product{
+          	  padding-left: 20px;
+          	  margin-top:20px;
+          }
+
+        .productbox{
+        	width:280px;
+        	height:420px;
+        	float:left;
+        	border: 1px solid #F00;
+        	margin-left:30px;
+        	margin-bottom: 30px;
+        	overflow: hidden;
+        	transition: box-shadow 0.5s linear;
+        }
+        .productbox:hover{
+        	box-shadow: 0 0 3px #000;
+        	cursor: pointer;
+        }
+        .productbox .top .pic{
+        	text-align: center;
+        	margin-top:20px;
+        }
+        .productbox .top .tit{
+        	padding-top:20px;
+        	text-align: center;
+        	font-weight: bold;
+        }
+         .productbox .top .price{
+         	margin-top:20px;
+         	color:	#F0F;
+         	padding-left:10px;
+
+         }
+         .productbox .bottom{
+         	margin-top:10px;
+         	padding:10px;
+         	opacity:0.7;
+         }
+         .productbox .bottom .font{
+              line-height: 1.5em;
+              font-size:14px;
+              margin-bottom:10px;
+         }
+          .productbox .bottom button{
+          	  background:#eee;
+          	  height:30px;
+          	  padding:10px;
+          	  text-align: center;
+          	  border:none;
+          	  margin-bottom:10px;
+          	  margin-left:100px;
+          	  transition: background-color 0.5s ease;
+
+          }
+          .productbox .bottom button:hover{
+             cursor: pointer;
+
+          }
+          .pagination{
+          	padding-left:40%;
+     
+          }
+          .pagination button{
+          	  background:#FCF;
+          	  height:30px;
+          	  padding:10px;
+          	  text-align: center;
+          	  border:none;
+          	  border:1px solid #ccc;
+          	  transition: background-color 0.5s ease;
+          	  float: left;
+
+          }
+          .pagination button:hover{
+          	  background-color: #ccc;
+          	  cursor: pointer;
+          	  outline:none;
+          }
+          footer{
+          	 width:100%;
+          	 clear:both;
+          	 background-color: #888;
+          	 text-align: center;
+          	 height:30px;
+          	 font-size: 12px;
+          	 line-height: 30px;
+          	 color:#FFF;
+          	 margin-top:50px;
+          	 display: inline-block;
+          }
+
+    </style>
+</head>
+<body>
+<div class="headerbar"><img src='images/a7.JPG'>
+<ul><li><a href=''>关于我们</a></li><li><a href=''>商家合作</a></li>
+<li><a href=''>好货百科</a></li></ul>
+</div>
+<div class="search">
+   <img src="images/a4.jpg" alt="images/a4.JPG" >
+   <div class="searbox">
+		<img src='images/a5.jpg' width="35px" height="35px">
+		<input type="text" placeholder="建议搜索分类和商品名">
+		<img src='images/a6.jpg' class="searc">
+   </div>
+</div>
+<div style="clear:both;width:1px;height:1px"></div>
+
+ <aside>
+ <h4>全部分类</h4>
+    <ul class="mainlist">
+      <li>奶粉<span class="floatRig">></span>
+         <ul>
+            <li>婴儿奶粉</li>
+            <li>羊奶粉</li>
+            <li>特殊配方奶粉</li>
+            <li>孕妇奶粉</li>
+            <li>奶粉储存</li>
+         </ul>
+      </li>
+      <li>纸尿裤/拉拉裤<span class="floatRig">></span>
+         <ul>
+            <li>纸尿裤</li>
+            <li>尿裤布</li>
+            <li>拉拉裤</li>
+            <li>隔尿垫</li>
+         </ul>
+      </li>
+      <li>营养辅食<span class="floatRig">></span><ul>
+            <li>米粉米糊</li>
+            <li>辅食泥</li>
+            <li>营养品</li>
+            <li>小零食</li>
+            <li>其他辅食</li>
+             <li>小零食</li>
+            <li>其他辅食</li>
+            <li>辅食制作和保存</li>
+            <li>调味品</li>
+         </ul></li>
+      <li>哺喂用品<span class="floatRig">></span><ul>
+            <li>奶瓶/奶嘴</li>
+            <li>安抚奶嘴</li>
+            <li>餐具</li>
+            <li>咬咬袋</li>
+            <li>学饮杯</li>
+            <li>餐椅</li>
+            <li>围兜/防溅衣</li>
+            <li>清洗消毒工具</li>
+         </ul></li>
+      <li>童装童鞋<span class="floatRig">></span><ul>
+            <li>连身衣/爬服/哈衣</li>
+            <li>肚兜/肚围/护脐带</li>
+            <li>上装-内衣</li>
+            <li>上装-外套</li>
+            <li>下装-内衣裤</li>
+            <li>下装-外衣裤</li>
+            <li>裙装</li>
+            <li>亲子装</li>
+            <li>婴儿鞋/学步鞋</li>
+            <li>童鞋/皮鞋/靴子</li>
+
+         </ul></li>
+      <li>孕产新妈<span class="floatRig">></span><ul>
+            <li>营养健康</li>
+            <li>护肤/洗护</li>
+            <li>待产/新生</li>
+            <li>排卵/验孕</li>
+            <li>孕妇装</li>
+            <li>孕妈内衣</li>
+            <li>产后塑身</li>
+            <li>防妊娠纹</li>
+         </ul></li>
+      <li>家居用品<span class="floatRig">></span><ul>
+            <li>安全防护</li>
+            <li>洗澡用品</li>
+            <li>湿巾/湿巾加热器</li>
+            <li>手巾/口水巾/三角巾</li>
+            <li>吸汗巾/垫背巾</li>
+            <li>理发/梳子/指甲剪</li>
+            <li>耳勺/体温计/吸鼻器</li>
+            <li>护臀</li>
+            <li>防蚊膏/防蚊露</li>
+            <li>洗护工具</li>
+         </ul></li>
+      <li>洗护用品<span class="floatRig">></span><ul>
+            <li>安全防护</li>
+            <li>洗澡用品</li>
+            <li>湿巾/湿巾加热器</li>
+            <li>手巾/口水巾/三角巾</li>
+            <li>吸汗巾/垫背巾</li>
+            <li>理发/梳子/指甲剪</li>
+            <li>耳勺/体温计/吸鼻器</li>
+            <li>护臀</li>
+            <li>防蚊膏/防蚊露</li>
+            <li>洗护工具</li>
+         </ul></li>
+      <li>安全出行<span class="floatRig">></span><ul>
+            <li>推车/伞车</li>
+            <li>背袋/背巾/腰凳</li>
+            <li>安全座椅/汽车背带</li>
+            <li>出行配件</li>
+         </ul></li>
+      <li>宝宝玩乐<span class="floatRig">></span><ul>
+            <li>0~6个月推荐玩具</li>
+            <li>6~12个月推荐玩具</li>
+            <li>1~3岁推荐玩具</li>
+            <li>3~6岁推荐玩具</li>
+            <li>积木</li>
+            <li>益智玩具</li>
+            <li>绘本/布书</li>
+            <li>牙胶/咬咬胶</li>
+            <li>健身架</li>
+            <li>音乐玩具</li>
+
+            <li>爬行垫</li>
+            <li>毛绒玩具</li>
+            <li>模型玩具</li>
+            <li>遥控玩具</li>
+            <li>绘画工具</li>
+         </ul></li>
+      <li>宝宝寝具<span class="floatRig">></span><ul>
+            <li>童床/婴儿床/摇篮</li>
+            <li>睡袋/抱被/抱毯</li>
+            <li>枕头/床垫/单/围靠</li>
+            <li>床上用品</li>
+         </ul></li>
+      <li>儿童医药<span class="floatRig">></span><ul>
+            <li>喂药用具</li>
+         </ul></li>
+    </ul>
+
+ </aside>
+<div class="rigcom">
+  <div class="miaoshu"><p>好货百科是茉莉妈妈在日常推荐分享过的优质商品，同时也是连同众多妈妈们共建的优质商品百科全书。这里收录的都是妈妈听过的、见过或者使用过的，愿意向更多人推荐的优质商品。当你不确定要买什么时，通过搜索或分类、标签筛选，可能可以帮你快速找到心仪商品。</p></div>
+  <div class="tip"><span>热门标签</span><br/>
+     <button>进口大牌</button><button>妈妈口碑</button><button>背奶</button><button>明星同款</button>
+  </div>
+   <hr style="color:#ccc;opacity:0.2;margin:15px 30px ;"/>
+  <div class="product"> 
+
+      <div class='productbox'>
+          <div class='top'>
+	           <div class='pic'><img src='images/a1.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+       <div class='productbox'>
+          <div class='top'>
+	           <div class='pic'><img src='images/a2.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+
+       <div class='productbox'>
+          <div class='top'>
+	           <div class='pic'><img src='images/a3.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+
+       <div class='productbox'>
+         <div class='top'>
+	           <div class='pic'><img src='images/a1.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+       <div class='productbox'>
+         <div class='top'>
+	           <div class='pic'><img src='images/a2.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+       <div class='productbox'>
+           <div class='top'>
+	           <div class='pic'><img src='images/a3.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+
+       <div class='productbox'>
+          <div class='top'>
+	           <div class='pic'><img src='images/a1.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+       <div class='productbox'>
+          <div class='top'>
+	           <div class='pic'><img src='images/a2.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+
+       <div class='productbox'>
+          <div class='top'>
+	           <div class='pic'><img src='images/a3.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+
+       <div class='productbox'>
+         <div class='top'>
+	           <div class='pic'><img src='images/a1.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+       <div class='productbox'>
+         <div class='top'>
+	           <div class='pic'><img src='images/a2.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+       <div class='productbox'>
+           <div class='top'>
+	           <div class='pic'><img src='images/a3.jpg'></div>
+	           <div class='tit'><a href=''>Little Tikes美国小泰克 儿童健身</a></div>
+	           <div class='price'>￥299.00起</div>
+          </div>
+          <div class='bottom'>
+             <div class='font'>萌娃的健身装备，手眼齐发，锻炼身体，开发智慧</div>
+             <div class='btn'><button>查看详情</button></div>
+
+          </div>
+      </div>
+
+
+  </div>
+
+  <div style="width:1px;height:20px;clear:both"></div>
+
+  <div class="pagination"><button ><<</button><button >1</button><button >2</button><button >3</button><button >4</button>
+  <button >5</button><button >6</button><button >>></button></div>
+</div>
+<div><footer>Copyright@2015粤ICP备14088567号 茉莉妈妈 版权所有</footer></div>
+
+<script src="jquery-2.1.1.min.js" type="text/javascript"></script>
+ <script type="text/javascript">
+    $(function(){
+
+
+    	 $("aside >ul >li ").click(function(e){
+    	 	var index = $("aside >ul >li").index($(this));
+    	 	if($("aside >ul >li ul").eq(index).css("display") == "none"){
+    	 	  $('aside .mainlist >li').css("color","#000");
+              $('aside .mainlist >li').eq(index).css("color","#F00").children(":not(span)").
+              css("color","#000");
+              $("aside >ul >li ul").css("display","none");
+    	 	  $("aside >ul >li ul").eq(index).css("display","block");
+    	 	}
+    	 	else {
+    	 		 for(var s=0;s<$("aside >ul").children().size();s++){
+                          if(e.target == $("aside >ul").children()[s]){
+                          	$("aside >ul >li ul").eq(index).css("display","none");
+                          	$('aside >ul >li').eq(index).css("color","#000");
+                          }
+    	 		 }
+    	 		 $("aside >ul >li >ul >li").css("color","#000");
+    	 		 $(e.target).css("color","#F00");
+    	 		 $('aside >ul >li').eq(index).css("color","#000")
+    	 	}
+    	 })
+
+
+
+    
+
+
+   $(".tip button").click(function(eve) {
+   	   $("button").css('background-color','#FFF');
+   	   $(this).css({
+   	   	"background-color":"#F0F",
+   	   	 "border": "none"
+  		 })
+   });
+
+
+   $(".productbox").hover(function(event) {
+   		var index = $(".productbox").index($(this));
+        $(".productbox .bottom").eq(index).css("backgroundColor","#FFF8DC");
+        $(".productbox .bottom .btn button").eq(index).css("backgroundColor","#FF69B4");
+   },function(e){
+   	    var index = $(".productbox").index($(this));
+        $(".productbox .bottom").eq(index).css("backgroundColor","#FFF");
+        $(".productbox .bottom .btn button").eq(index).css("backgroundColor","#ccc");
+   });
+   
+        
+
+
+  
+   
+
+
+
+   });
+
+
+
+
+
+
+ </script>
+</body>
+</html>
